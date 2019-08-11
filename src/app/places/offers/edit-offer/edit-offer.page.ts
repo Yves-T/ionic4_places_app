@@ -7,7 +7,7 @@ import { NavController } from '@ionic/angular';
 @Component({
     selector: 'app-edit-offer',
     templateUrl: './edit-offer.page.html',
-    styleUrls: ['./edit-offer.page.scss']
+    styleUrls: ['./edit-offer.page.scss'],
 })
 export class EditOfferPage implements OnInit {
     place: Place;

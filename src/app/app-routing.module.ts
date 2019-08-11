@@ -8,17 +8,17 @@ const routes: Routes = [
     {
         path: 'places',
         loadChildren: './places/places.module#PlacesPageModule',
-        canLoad: [AuthGuard]
+        canLoad: [AuthGuard],
     },
     {
         path: 'bookings',
         loadChildren: './bookings/bookings.module#BookingsPageModule',
-        canLoad: [AuthGuard]
-    }
+        canLoad: [AuthGuard],
+    },
 ];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule]
+    exports: [RouterModule],
 })
 export class AppRoutingModule {}

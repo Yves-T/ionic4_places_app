@@ -5,7 +5,7 @@ import { PlacesService } from '../places.service';
 @Component({
     selector: 'app-offers',
     templateUrl: './offers.page.html',
-    styleUrls: ['./offers.page.scss']
+    styleUrls: ['./offers.page.scss'],
 })
 export class OffersPage implements OnInit {
     offers: Place[];

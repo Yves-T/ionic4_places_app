@@ -6,7 +6,7 @@ import { MenuController } from '@ionic/angular';
 @Component({
     selector: 'app-discover',
     templateUrl: './discover.page.html',
-    styleUrls: ['./discover.page.scss']
+    styleUrls: ['./discover.page.scss'],
 })
 export class DiscoverPage implements OnInit {
     loadedPlaces: Place[];

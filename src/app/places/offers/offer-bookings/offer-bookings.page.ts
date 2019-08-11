@@ -7,7 +7,7 @@ import { Place } from '../../place.model';
 @Component({
     selector: 'app-offer-bookings',
     templateUrl: './offer-bookings.page.html',
-    styleUrls: ['./offer-bookings.page.scss']
+    styleUrls: ['./offer-bookings.page.scss'],
 })
 export class OfferBookingsPage implements OnInit {
     place: Place;
